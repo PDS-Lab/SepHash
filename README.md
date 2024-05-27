@@ -72,3 +72,19 @@ Modify the called executable in ser_cli.sh to replace different comparison objec
 - ser_cli.cc : fixed length KV test
 - ser_cli_var_kv.cc : variable length KV test
 - Change the ClientType and ServerType in ser_cli.cc and ser_cli_var_kv.cc to switch between different comparison objects.
+
+### Citation
+If you find our work useful, please cite as
+
+```
+@article{min2024sephash,
+  title={SepHash: A Write-Optimized Hash Index On Disaggregated Memory via Separate Segment Structure},
+  author={Min, Xinhao and Lu, Kai and Liu, Pengyu and Wan, Jiguang and Xie, Changsheng and Wang, Daohui and Yao, Ting and Wu, Huatao},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={5},
+  pages={1091--1104},
+  year={2024},
+  publisher={VLDB Endowment}
+}
+```
